@@ -16,7 +16,7 @@ Here use a protocol way to workaround this requirement.
 # Usage
 you need to do:
 1. update the **localAppLoader.bat path** to your real local path in **localAppLoader.reg**
-2. double-click file **localAppLoader.reg** to import it into your register and verify it is imported sucessfully.
+2. double-click file **localAppLoader.reg** to import it into your register and ***verify*** it is imported sucessfully.
 3. run the test file **localAppLoader_test.bat** or **localAppLoader_test.html**
    if test it with localAppLoader_test.html, to **click one link, one message will popup -- it is sucessfully**.
 4. update the localAppLoader.bat based on your daily work business.
