@@ -1,4 +1,4 @@
-# feature
+# feature :
 - it is used to load local application and script from a web link to improve daily work productivity : speed up repeated work by automation.
 By click the link , you can do :
 . open your local folder, instead of listing its folder content.
@@ -14,7 +14,7 @@ By click the link , you can do :
 - because browser can't run any local application or script from a web link because of security issue.
 here use a protocol way to workaround this requirement.
 
-# usage
+# Usage :
 you need to do:
 1. update the localAppLoader.bat path to your real local path in localAppLoader.reg
 2. double-click file localAppLoader.reg to import it into your register and verify it is imported sucessfully.
