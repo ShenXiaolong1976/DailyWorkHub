@@ -6,7 +6,7 @@
 :: parameter %* example : "localLoader://vscodeOpen:C:/work/shenxiaolong/core/WinScript/userSetting/contextMenu/localAppLoader/"
 
 ::@set _Echo=1
-set _Stack=%~nx0
+::set _Stack=%~nx0
 @if {"%_Echo%"}=={"1"} ( @echo on ) else ( @echo off )
 @if defined _Stack @for %%a in ( 1 "%~nx0" "%0" ) do @if {"%%~a"}=={"%_Stack%"} @echo. & @echo [+++++ %~nx0] commandLine: %0 %*
 where "%~nx0" 1>nul 2>nul || set "path=%~dp0;%path%"
