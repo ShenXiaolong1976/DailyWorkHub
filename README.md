@@ -1,6 +1,6 @@
 # purpose
-### because of security limitation , browser can't run any local application/script from a web link by default .
-Here use a protocol way to resolve this requirement.
+### because of security limitation , browser can't run any `local` application/script from a web link by default .
+Here use a protocol way to resolve this requirement.  
 
 # feature
 it is used to load local application and script from a web link to improve daily work productivity.  
