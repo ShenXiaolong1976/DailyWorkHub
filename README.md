@@ -1,5 +1,9 @@
+# purpose
+### because of security limitation , browser can't run any local application/script from a web link by default .
+Here use a protocol way to resolve this requirement.
+
 # feature
-it is used to load local application and script from a web link to improve daily work productivity : speed up repeated work by automation.
+it is used to load local application and script from a web link to improve daily work productivity.  
 By click the link , you can do :
 - open your local folder, instead of listing its folder content.
 - open/edit a local file by your expected application directly, instead of popuping a downloading message box to confirm download.
@@ -10,9 +14,6 @@ By click the link , you can do :
 - connect remote linux server via vnc directly without vnc viewer.
 - connect remote windows desktop via windows RDP services directly without manual interaction.
 
-### Because browser can't run any local application/script from a web link by default because of security issue.
-Here use a protocol way to workaround this requirement.
-
 # Usage
 you need to do:
 1. update the **localAppLoader.bat path** to your real local path in **localAppLoader_install.reg**
@@ -22,8 +23,10 @@ you need to do:
    if test it with localAppLoader_test.html, to **click one link, one message will popup -- it is sucessfully**.
 4. update the localAppLoader.bat based on your daily work business.
    the original localAppLoader.bat is my work hub script -- its nested/called script lies in the repo WinScript -- you can find them in my repo list. 
-   
-   
+
+# example
+  see below picture in my work scenarion:  
+  https://github.com/shenxiaolong-code/DailyWorkHub/blob/main/my_work_hub_example.png
 
    
 
