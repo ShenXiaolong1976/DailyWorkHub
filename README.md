@@ -1,6 +1,7 @@
 # purpose
 ### because of security limitation , browser can't run any `local` application/script from a web link by default .
 Here use a protocol way to resolve this requirement.  
+with this workhub, you can load any your local application / script with your customized parameter on your local windows system from a web link clicking, instead of downloading them.
 
 # feature
 it is used to load local application and script from a web link to improve daily work productivity.  
