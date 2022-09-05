@@ -44,7 +44,7 @@ you need to do:
 
 # example
   see below picture in my work scenarion:  
-  https://github.com/shenxiaolong-code/DailyWorkHub/blob/main/my_work_hub_example.png
+  https://github.com/shenxiaolong-code/DailyWorkHub/tree/main/usage_demo
 
    
 
