@@ -6,6 +6,21 @@ with this workhub, you can load any your local application / script with your cu
 
 # feature
 it is used to load local application and script from a web link to improve daily work productivity.  
+the full script suite includes `.js file` , `.css file` , `xiaolong's chrome extension` , `subcommand interpreter (batch script)`. it will generate below content automatically.
+- page header info, used for quick edit and open general tools.
+- embed css style , auto-dark mode.
+- for all remote link , add `targe="_blank"` attribute to open it in new tab.
+- for local .txt file path, add edit link (@) and directory browse link to quick edit it and browse its folder.   
+  see https://github.com/shenxiaolong-code/DailyWorkHub/blob/main/usage_demo/entry_main_page.png
+- trim blank chars in a link text.
+- detect empty link text and add it automatically. e.g. you can use the below HTML content legally and directly.  
+  ```<a href="C:\temp\DailyWorkHub\localAppLoader.bat"> </a>```   
+  it will use the href value as its link text.
+- for any html tag which has ``localurl`` attribute, generate two children elements : file link and directory link.  
+  e.g. ```<div localurl="C:\temp\DailyWorkHub\localAppLoader.bat"><div>```
+- embed quick edit,vscodeEdit, open , defaultOpen , vscodeOpen ,explorerOpen , explorerLocate button when open a windows local folder in chrome.
+  see https://github.com/shenxiaolong-code/DailyWorkHub/blob/main/usage_demo/open_local_in_web_page.png
+
 By click the link , you can do :
 - open your local folder, instead of listing its folder content.
 - open/edit a local file by your expected application directly, instead of popuping a downloading message box to confirm download.
