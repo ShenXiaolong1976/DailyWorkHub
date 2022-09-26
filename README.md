@@ -19,7 +19,7 @@ the full script suite includes `.js file` , `.css file` , `xiaolong's chrome ext
 - for any html tag which has ``localurl`` attribute, generate two children elements : file link and directory link.  
   e.g. ```<div localurl="C:\temp\DailyWorkHub\localAppLoader.bat"><div>```
 - embed quick edit,vscodeEdit, open , defaultOpen , vscodeOpen ,explorerOpen , explorerLocate button when open a windows local folder in chrome.  
-  see https://github.com/shenxiaolong-code/DailyWorkHub/blob/main/usage_demo/open_local_in_web_page.png
+  see https://github.com/shenxiaolong-code/DailyWorkHub/blob/main/usage_demo/local_file_system.png
 
 By click the link , you can do :
 - open your local folder, instead of listing its folder content.
