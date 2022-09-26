@@ -4,6 +4,10 @@ Integrate all launch entries in one page, one-click to open any local applicatio
 Here use a protocol way to resolve this requirement.  
 with this workhub, you can load any your local application / script with your customized parameter on your local windows system from a web link clicking, instead of downloading them.
 
+# dependency
+this project need the support of winscript.  
+https://github.com/shenxiaolong-code/WinScript/tree/master/common
+
 # feature
 it is used to load local application and script from a web link to improve daily work productivity.  
 the full script suite includes `.js file` , `.css file` , `xiaolong's chrome extension` , `subcommand interpreter (batch script)`. it will generate below content automatically.
